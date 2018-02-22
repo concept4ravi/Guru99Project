@@ -17,15 +17,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utils {
 	public static WebDriver driver = null;
-	private static String firefoxDriverLocation =  "/home/intern/eclipse-workspace/OnlineStore/Browser Driver/geckodriver";
-	private static String chromeDriverLocation = "/home/intern/eclipse-workspace/OnlineStore/Browser Driver/chromedriver";
+	
 	
 	public static WebDriver OpenBrowser(int iTestCaseRow) throws Exception{
 		String sBrowserName;
 		try{
 			sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
 			if(sBrowserName.toLowerCase().equals("chrome")){
-				System.setProperty("webdriver.chrome.driver",chromeDriverLocation);
+				System.setProperty("webdriver.chrome.driver",Constant.chromeDriverLocation);
 				driver = new ChromeDriver();
 				Log.info("New Chrome driver instantiated");
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -33,7 +32,7 @@ public class Utils {
 				driver.get(Constant.URL);
 				Log.info("Web application launched successfully");
 			}else if(sBrowserName.toLowerCase().equals("firefox")) {
-				System.setProperty("webdriver.gecko.driver",firefoxDriverLocation); 
+				System.setProperty("webdriver.gecko.driver",Constant.firefoxDriverLocation); 
 				driver = new FirefoxDriver();
 				Log.info("New Firefox driver instantiated");
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
