@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing test Test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Framework_001.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing Framework_001.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Framework_001.main]]>
+    </line>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing Framework_001.main]]>
+    </line>
+    <line>
+      <![CDATA[TestName = null]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in automationFramework.Framework_001]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Framework_001.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing Framework_001.afterMethod]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10347" started-at="2018-02-22T04:18:24Z" finished-at="2018-02-22T04:18:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10347" started-at="2018-02-22T04:18:24Z" finished-at="2018-02-22T04:18:34Z">
+      <class name="automationFramework.Framework_001">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="beforeMethod" is-config="true" duration-ms="4075" started-at="2018-02-22T04:18:24Z" finished-at="2018-02-22T04:18:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing Framework_001.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="main" duration-ms="6153" started-at="2018-02-22T04:18:28Z" finished-at="2018-02-22T04:18:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing Framework_001.main]]>
+            </line>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing Framework_001.main]]>
+            </line>
+            <line>
+              <![CDATA[TestName = null]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in automationFramework.Framework_001]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing Framework_001.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="afterMethod" is-config="true" duration-ms="106" started-at="2018-02-22T04:18:34Z" finished-at="2018-02-22T04:18:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing Framework_001.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- automationFramework.Framework_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
