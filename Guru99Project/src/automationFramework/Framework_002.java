@@ -13,7 +13,7 @@ import utility.ExcelUtils;
 import utility.Log;
 import utility.Utils;
 
-public class Framework_001{
+public class Framework_002{
 	public WebDriver driver;
 	private String sTestCaseName;
 	private int iTestCaseRow;
@@ -67,6 +67,7 @@ public class Framework_001{
 		// This is called Modularization, when we club series of actions in to one Module
 		// For Modular Driven Framework, please see http://www.toolsqa.com/modular-driven/  
 		SignIn_Action.Execute(iTestCaseRow);
+		
 		// Now your test is about to finish but before that you need to take decision to Pass your test or Fail
 		// For selenium your test is pass, as you do not face any exception and you come to the end or you test did not stop anywhere
 		// But for you it can be fail, if any of your verification is failed

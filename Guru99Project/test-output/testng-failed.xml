@@ -6,13 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="automationFramework.Framework_001">
+      <class name="automationFramework.Framework_003">
         <methods>
           <include name="beforeMethod"/>
-          <include name="main"/>
           <include name="afterMethod"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- automationFramework.Framework_001 -->
+      </class> <!-- automationFramework.Framework_003 -->
+      <class name="automationFramework.Framework_004">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- automationFramework.Framework_004 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

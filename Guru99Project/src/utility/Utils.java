@@ -17,8 +17,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utils {
 	public static WebDriver driver = null;
-	
-	
+
+
 	public static WebDriver OpenBrowser(int iTestCaseRow) throws Exception{
 		String sBrowserName;
 		try{
@@ -88,6 +88,20 @@ public class Utils {
 
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+
+	public static boolean isAlertPresent() {
+		try {
+			driver.switchTo().alert();
+			return true;
+		}// try
+		catch (Exception e) {
+			return false;
+		}// catch
+	}
+
+	public static void acceptAlert() {
+		driver.switchTo().alert().accept();
 	}
 
 	public static void takeScreenshot(WebDriver driver, String sTestCaseName) throws Exception{

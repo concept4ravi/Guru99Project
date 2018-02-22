@@ -1,0 +1,188 @@
+2018-02-22 14:57:02,962 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:02,962 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:02,962 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 14:57:02,962 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:02,962 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:03,224 INFO  [Log] Excel sheet opened 
+2018-02-22 14:57:03,224 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 14:57:03,795 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 14:57:03,798 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 14:57:09,010 INFO  [Log] Web application launched successfully 
+2018-02-22 14:57:09,038 INFO  [Log] UserId text box is found on the Home Page 
+2018-02-22 14:57:09,095 INFO  [Log] mngr119726 is entered in UserId text box 
+2018-02-22 14:57:09,110 INFO  [Log] Password Text box is found on the Home Page 
+2018-02-22 14:57:09,150 INFO  [Log] nArysEm is entered in Password text box 
+2018-02-22 14:57:09,163 INFO  [Log] Login Button found on the Home Page 
+2018-02-22 14:57:17,538 INFO  [Log] Click action is performed on Login button 
+2018-02-22 14:57:17,561 INFO  [Log] Title Verified 
+2018-02-22 14:57:17,577 INFO  [Log] Manager Id text found on the Manager Page 
+2018-02-22 14:57:17,591 INFO  [Log] Verification Complete 
+2018-02-22 14:57:17,665 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 14:57:17,665 INFO  [Log] X 
+2018-02-22 14:57:17,665 INFO  [Log] X 
+2018-02-22 14:57:17,665 INFO  [Log] X 
+2018-02-22 14:57:17,665 INFO  [Log] X 
+2018-02-22 14:57:17,773 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:17,773 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:17,773 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 14:57:17,773 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:17,773 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:17,793 INFO  [Log] Excel sheet opened 
+2018-02-22 14:57:17,793 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 14:57:18,065 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 14:57:18,066 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 14:57:24,489 INFO  [Log] Web application launched successfully 
+2018-02-22 14:57:24,519 INFO  [Log] UserId text box is found on the Home Page 
+2018-02-22 14:57:24,563 INFO  [Log] fdsfsdfs is entered in UserId text box 
+2018-02-22 14:57:24,575 INFO  [Log] Password Text box is found on the Home Page 
+2018-02-22 14:57:24,613 INFO  [Log] nArysEm is entered in Password text box 
+2018-02-22 14:57:24,629 INFO  [Log] Login Button found on the Home Page 
+2018-02-22 14:57:25,508 INFO  [Log] Click action is performed on Login button 
+2018-02-22 14:57:25,516 INFO  [Log] A popup 'User or Password is not Valid' is shown 
+2018-02-22 14:57:25,535 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 14:57:25,535 INFO  [Log] X 
+2018-02-22 14:57:25,535 INFO  [Log] X 
+2018-02-22 14:57:25,535 INFO  [Log] X 
+2018-02-22 14:57:25,535 INFO  [Log] X 
+2018-02-22 14:57:25,645 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:25,645 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:25,645 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_003       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 14:57:25,645 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:25,645 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:25,658 INFO  [Log] Excel sheet opened 
+2018-02-22 14:57:25,659 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 14:57:25,953 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 14:57:25,955 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 14:57:30,531 INFO  [Log] Web application launched successfully 
+2018-02-22 14:57:30,557 INFO  [Log] UserId text box is found on the Home Page 
+2018-02-22 14:57:30,626 INFO  [Log] mngr119726 is entered in UserId text box 
+2018-02-22 14:57:30,641 INFO  [Log] Password Text box is found on the Home Page 
+2018-02-22 14:57:30,677 INFO  [Log] dfsdfs is entered in Password text box 
+2018-02-22 14:57:30,690 INFO  [Log] Login Button found on the Home Page 
+2018-02-22 14:57:31,280 INFO  [Log] Click action is performed on Login button 
+2018-02-22 14:57:31,297 INFO  [Log] A popup 'User or Password is not Valid' is shown 
+2018-02-22 14:57:31,322 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 14:57:31,322 INFO  [Log] X 
+2018-02-22 14:57:31,322 INFO  [Log] X 
+2018-02-22 14:57:31,322 INFO  [Log] X 
+2018-02-22 14:57:31,322 INFO  [Log] X 
+2018-02-22 14:57:31,387 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:31,387 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:31,387 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_004       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 14:57:31,387 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:31,387 INFO  [Log] **************************************************************************************** 
+2018-02-22 14:57:31,398 INFO  [Log] Excel sheet opened 
+2018-02-22 14:57:31,398 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 14:57:31,703 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 14:57:31,704 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 14:57:38,778 INFO  [Log] Web application launched successfully 
+2018-02-22 14:57:38,804 INFO  [Log] UserId text box is found on the Home Page 
+2018-02-22 14:57:38,858 INFO  [Log] fdsfsdfs is entered in UserId text box 
+2018-02-22 14:57:38,871 INFO  [Log] Password Text box is found on the Home Page 
+2018-02-22 14:57:38,910 INFO  [Log] fsdfsdf is entered in Password text box 
+2018-02-22 14:57:38,922 INFO  [Log] Login Button found on the Home Page 
+2018-02-22 14:57:39,834 INFO  [Log] Click action is performed on Login button 
+2018-02-22 14:57:39,843 INFO  [Log] A popup 'User or Password is not Valid' is shown 
+2018-02-22 14:57:39,859 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 14:57:39,859 INFO  [Log] X 
+2018-02-22 14:57:39,859 INFO  [Log] X 
+2018-02-22 14:57:39,859 INFO  [Log] X 
+2018-02-22 14:57:39,859 INFO  [Log] X 
+2018-02-22 15:08:40,823 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:40,823 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:40,823 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 15:08:40,823 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:40,823 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:41,082 INFO  [Log] Excel sheet opened 
+2018-02-22 15:08:41,082 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 15:08:41,686 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 15:08:41,688 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 15:08:49,398 INFO  [Log] Web application launched successfully 
+2018-02-22 15:08:49,427 INFO  [Log] UserId text box is found on the Home Page 
+2018-02-22 15:08:49,477 INFO  [Log] mngr119726 is entered in UserId text box 
+2018-02-22 15:08:49,490 INFO  [Log] Password Text box is found on the Home Page 
+2018-02-22 15:08:49,530 INFO  [Log] nArysEm is entered in Password text box 
+2018-02-22 15:08:49,543 INFO  [Log] Login Button found on the Home Page 
+2018-02-22 15:08:55,804 INFO  [Log] Click action is performed on Login button 
+2018-02-22 15:08:55,851 INFO  [Log] Title Verified 
+2018-02-22 15:08:55,869 INFO  [Log] Manager Id text found on the Manager Page 
+2018-02-22 15:08:55,886 INFO  [Log] Verification Complete 
+2018-02-22 15:08:55,948 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 15:08:55,948 INFO  [Log] X 
+2018-02-22 15:08:55,948 INFO  [Log] X 
+2018-02-22 15:08:55,948 INFO  [Log] X 
+2018-02-22 15:08:55,948 INFO  [Log] X 
+2018-02-22 15:08:56,063 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:56,063 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:56,063 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_002       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 15:08:56,063 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:56,063 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:08:56,084 INFO  [Log] Excel sheet opened 
+2018-02-22 15:08:56,084 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 15:08:56,375 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 15:08:56,376 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 15:09:05,702 INFO  [Log] Web application launched successfully 
+2018-02-22 15:09:05,717 INFO  [Log] UserId text box is found on the Home Page 
+2018-02-22 15:09:05,757 INFO  [Log] fdsfsdfs is entered in UserId text box 
+2018-02-22 15:09:05,770 INFO  [Log] Password Text box is found on the Home Page 
+2018-02-22 15:09:05,828 INFO  [Log] nArysEm is entered in Password text box 
+2018-02-22 15:09:05,841 INFO  [Log] Login Button found on the Home Page 
+2018-02-22 15:09:06,824 INFO  [Log] Click action is performed on Login button 
+2018-02-22 15:09:06,836 INFO  [Log] A popup 'User or Password is not Valid' is shown 
+2018-02-22 15:09:06,892 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 15:09:06,892 INFO  [Log] X 
+2018-02-22 15:09:06,892 INFO  [Log] X 
+2018-02-22 15:09:06,892 INFO  [Log] X 
+2018-02-22 15:09:06,892 INFO  [Log] X 
+2018-02-22 15:09:06,960 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:06,960 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:06,960 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_003       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 15:09:06,960 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:06,960 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:06,975 INFO  [Log] Excel sheet opened 
+2018-02-22 15:09:06,975 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 15:09:07,287 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 15:09:07,288 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 15:09:09,182 INFO  [Log] Web application launched successfully 
+2018-02-22 15:09:09,190 ERROR [Log] UserId text box is not found on the Home Page 
+2018-02-22 15:09:09,213 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.91)
+  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 3.10.0-514.el7.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-514.el7.x86_64', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 61.0.3163.91, webStorageEnabled: true}
+Session ID: 840c975635cd38d93ad0e67c20ecdb81 
+2018-02-22 15:09:09,215 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 15:09:09,215 INFO  [Log] X 
+2018-02-22 15:09:09,215 INFO  [Log] X 
+2018-02-22 15:09:09,215 INFO  [Log] X 
+2018-02-22 15:09:09,215 INFO  [Log] X 
+2018-02-22 15:09:09,228 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:09,228 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:09,228 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Framework_004       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2018-02-22 15:09:09,228 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:09,228 INFO  [Log] **************************************************************************************** 
+2018-02-22 15:09:09,242 INFO  [Log] Excel sheet opened 
+2018-02-22 15:09:09,242 INFO  [Log] Total number of Row used return as < 4 >. 
+2018-02-22 15:09:09,600 INFO  [Log] New Chrome driver instantiated 
+2018-02-22 15:09:09,603 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2018-02-22 15:09:10,346 INFO  [Log] Web application launched successfully 
+2018-02-22 15:09:10,352 ERROR [Log] UserId text box is not found on the Home Page 
+2018-02-22 15:09:10,375 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.91)
+  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 3.10.0-514.el7.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'localhost.localdomain', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.10.0-514.el7.x86_64', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 61.0.3163.91, webStorageEnabled: true}
+Session ID: 9ae65ea91904e872176d6c96946d2005 
+2018-02-22 15:09:10,397 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-02-22 15:09:10,397 INFO  [Log] X 
+2018-02-22 15:09:10,397 INFO  [Log] X 
+2018-02-22 15:09:10,397 INFO  [Log] X 
+2018-02-22 15:09:10,397 INFO  [Log] X 

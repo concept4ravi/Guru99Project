@@ -1,4 +1,5 @@
 package appModules;
+import org.testng.Assert;
 import org.testng.Reporter;
 
 import pageObjects.Home_Page;
@@ -6,6 +7,7 @@ import pageObjects.ManagerHome_Page;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
+import utility.Utils;
 
 // This is called Modularization, when we club series of actions in to one Module
 // For Modular Driven Framework, please see http://www.toolsqa.com/modular-driven/   
@@ -33,17 +35,24 @@ public class SignIn_Action {
 
 		Home_Page.btn_Login().click();
 		Log.info("Click action is performed on Login button");
-		// Verifying Sign In
-		System.out.println(ManagerHome_Page.txt_managerId().getText());
-		if(ManagerHome_Page.txt_managerId().getText().contains(sUserUId)) {
-			Log.info("Verification Complete");
-			Reporter.log("SignIn Action is successfully perfomred");
+		if(Utils.isAlertPresent()){
+			Utils.acceptAlert();
+			Log.info("A popup 'User or Password is not Valid' is shown");
 			ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
-		}
-		else {
-			Log.info("Verification InComplete");
-			Reporter.log("SignIn Action Failed");
-			ExcelUtils.setCellData("Fail", iTestCaseRow, Constant.Col_Result);
+		}else {
+			String title = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Title);
+			Assert.assertEquals(title, ManagerHome_Page.getTitle());
+			Log.info("Title Verified");
+			if(ManagerHome_Page.txt_managerId().getText().contains(sUserUId)) {
+				Log.info("Verification Complete");
+				Reporter.log("SignIn Action is successfully perfomred");
+				ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
+			}
+			else {
+				Log.info("Verification InComplete");
+				Reporter.log("SignIn Action Failed");
+				ExcelUtils.setCellData("Fail", iTestCaseRow, Constant.Col_Result);
+			}
 		}
 
 		// This is another type of logging, with the help of TestNg Reporter log
