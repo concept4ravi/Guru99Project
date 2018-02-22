@@ -20,5 +20,4 @@ public class ManagerHome_Page extends BaseClass{
 		}
 		return element;
 	}
-	
 }

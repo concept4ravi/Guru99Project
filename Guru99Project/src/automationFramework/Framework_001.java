@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import appModules.SignIn_Action;
+import appModules.VerifyTitle_Action;
 import pageObjects.BaseClass;
 import utility.Constant;
 import utility.ExcelUtils;
@@ -67,6 +68,8 @@ public class Framework_001{
 		// This is called Modularization, when we club series of actions in to one Module
 		// For Modular Driven Framework, please see http://www.toolsqa.com/modular-driven/  
 		SignIn_Action.Execute(iTestCaseRow);
+		// Verifying title of Page
+		VerifyTitle_Action.Execute(iTestCaseRow);
 		// Now your test is about to finish but before that you need to take decision to Pass your test or Fail
 		// For selenium your test is pass, as you do not face any exception and you come to the end or you test did not stop anywhere
 		// But for you it can be fail, if any of your verification is failed
@@ -93,7 +96,7 @@ public class Framework_001{
 	  }
 		
   }
-		
+  	
   // Its time to close the finish the test case		
   @AfterMethod
   public void afterMethod() {

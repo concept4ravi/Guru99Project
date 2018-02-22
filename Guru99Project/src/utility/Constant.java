@@ -12,7 +12,8 @@ public class Constant {
 		public static final int Col_TestCaseName = 0;	
 		public static final int Col_UserName =1 ;
 		public static final int Col_Password = 2;
-		public static final int Col_Browser = 3;
-		public static final int Col_Result = 4;
+		public static final int Col_Title = 3;
+		public static final int Col_Browser = 4;
+		public static final int Col_Result = 5;
 		public static final String Path_ScreenShot = "/home/intern/git/Guru99Project/Guru99Project/src/Screenshots";
 	}

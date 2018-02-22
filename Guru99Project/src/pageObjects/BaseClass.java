@@ -10,4 +10,9 @@ public class BaseClass {
 		BaseClass.bResult = true;
 	}
 
+	public static String getTitle(){
+
+		return driver.getTitle();
+	}
+
 }
