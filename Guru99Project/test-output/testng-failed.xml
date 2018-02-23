@@ -6,20 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="automationFramework.Framework_003">
+      <class name="automationFramework.Framework_001">
         <methods>
           <include name="beforeMethod"/>
-          <include name="afterMethod"/>
+          <include name="nameFieldFirstCharSpaceCheck"/>
           <include name="main"/>
-        </methods>
-      </class> <!-- automationFramework.Framework_003 -->
-      <class name="automationFramework.Framework_004">
-        <methods>
-          <include name="beforeMethod"/>
+          <include name="clickNewCustomer"/>
           <include name="afterMethod"/>
-          <include name="main"/>
         </methods>
-      </class> <!-- automationFramework.Framework_004 -->
+      </class> <!-- automationFramework.Framework_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

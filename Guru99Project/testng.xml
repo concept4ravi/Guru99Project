@@ -7,9 +7,7 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="automationFramework.Framework_001" />
-			<class name="automationFramework.Framework_002" />
-			<class name="automationFramework.Framework_003" />
-			<class name="automationFramework.Framework_004" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

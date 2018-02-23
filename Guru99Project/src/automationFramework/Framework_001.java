@@ -2,12 +2,15 @@ package automationFramework;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import appModules.SignIn_Action;
+import appModules.appSubModules.verifyAddNewCustomerForm.VerifyAddressField;
+import appModules.appSubModules.verifyAddNewCustomerForm.VerifyNameField;
 import pageObjects.BaseClass;
+import pageObjects.SideMenu;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
@@ -21,7 +24,7 @@ public class Framework_001{
   // Following TestNg Test case pattern, and divided a Test case in to three different part.
   // In Before Method, your code will always be the same for every other test case.
   // In other way before method is your prerequisites of your main Test Case	
-  @BeforeMethod
+  @BeforeTest
   public void beforeMethod() throws Exception {
 	    // Configuring Log4j logs, please see the following posts to learn about Log4j Logging
 	    // http://www.toolsqa.com/test-case-with-log4j/
@@ -93,9 +96,39 @@ public class Framework_001{
 	  }
 		
   }
+  @Test(dependsOnMethods="main")
+  public void clickNewCustomer() throws Exception {
+	  SideMenu.lnk_NewCustomer().click();
+  }
+  @Test(dependsOnMethods="clickNewCustomer")
+  public  void nameFieldEmptyCheck() throws Exception {
+	  VerifyNameField.nameFieldEmptyCheck();
+  }
+  @Test(dependsOnMethods="clickNewCustomer")
+  public  void nameFieldFirstCharSpaceCheck() throws Exception {
+	  VerifyNameField.nameFieldFirstCharSpaceCheck();;
+  }
+  @Test(dependsOnMethods="clickNewCustomer")
+  public  void nameFieldNumericCheck() throws Exception {
+	  VerifyNameField.nameFieldNumericCheck();
+  }
+  @Test(dependsOnMethods="clickNewCustomer")
+  public  void nameFieldSpecialCharacterCheck() throws Exception {
+	  VerifyNameField.nameFieldSpecialCharacterCheck();
+  }
+  
+  @Test(dependsOnMethods="clickNewCustomer")
+  public  void addressFieldEmptyCheck() throws Exception {
+	  VerifyAddressField.addressFieldEmptyCheck();
+  }
+  @Test(dependsOnMethods="clickNewCustomer")
+  public  void addressFieldFirstCharSpaceCheck() throws Exception {
+	  VerifyAddressField.addressFieldFirstCharSpaceCheck();;
+  }
+  
   	
   // Its time to close the finish the test case		
-  @AfterMethod
+  @AfterTest
   public void afterMethod() {
 	    // Printing beautiful logs to end the test case
 	    Log.endTestCase(sTestCaseName);

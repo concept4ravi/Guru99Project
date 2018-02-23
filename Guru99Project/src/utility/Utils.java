@@ -15,6 +15,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.AddCustomer_Page;
+
 public class Utils {
 	public static WebDriver driver = null;
 
@@ -113,6 +115,9 @@ public class Utils {
 			throw new Exception();
 		}
 	}
-
-
+	
+	public static void waitForElementVisibility(WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		wait.until(ExpectedConditions.visibilityOf(element));
+	}
 }
