@@ -2,14 +2,11 @@ package appModules.appSubModules.verifyAddNewCustomerForm;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.Test;
 
 import pageObjects.AddCustomer_Page;
 import pageObjects.BaseClass;
-import utility.Log;
 
 public class VerifyNameField extends BaseClass{
 	

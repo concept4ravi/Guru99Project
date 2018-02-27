@@ -30,6 +30,35 @@ public class AddCustomer_Page extends BaseClass{
 	public static final String addressLabelTextEmpty = "Address Field must not be blank";
 	public static final String addressLabelTextFirstCharSpace = "First character can not have space";
 	
+//	Labels related to City Field
+	public static final String cityLabelTextEmpty = "City Field must not be blank";
+	public static final String cityLabelTextNumeric = "Numbers are not allowed";
+	public static final String cityLabelTextSpecialCharacter = "Special characters are not allowed";
+	public static final String cityLabelTextFirstCharSpace = "First character can not have space";
+
+//	Labels related to State Field
+	public static final String stateLabelTextEmpty = "State must not be blank";
+	public static final String stateLabelTextNumeric = "Numbers are not allowed";
+	public static final String stateLabelTextSpecialCharacter = "Special characters are not allowed";
+	public static final String stateLabelTextFirstCharSpace = "First character can not have space";
+
+//	Labels related to Pin Field
+	public static final String pinLabelTextEmpty = "Pin Code must not be blank";
+	public static final String pinLabelTextCharacter = "Characters are not allowed";
+	public static final String pinLabelTextSpecialCharacter = "Special characters are not allowed";
+	public static final String pinLabelTextFirstCharSpace = "First character can not have space";
+	public static final String pinLabelTextLesThan6Digit = "PIN Code must have 6 Digits";
+
+//	Labels related to Mobile Field
+	public static final String mobileLabelTextEmpty = "Mobile no must not be blank";
+	public static final String mobileLabelTextCharacter = "Characters are not allowed";
+	public static final String mobileLabelTextSpecialCharacter = "Special characters are not allowed";
+	public static final String mobileLabelTextFirstCharSpace = "First character can not have space";
+
+//	Labels related to Email Field
+	public static final String emailLabelTextEmpty = "Email-ID must not be blank";
+	public static final String emailLabelTextNotValid = "Email-ID is not valid";
+	public static final String emailLabelTextFirstCharSpace = "First character can not have space";
 	
 	public AddCustomer_Page(WebDriver driver) {
 		super(driver);

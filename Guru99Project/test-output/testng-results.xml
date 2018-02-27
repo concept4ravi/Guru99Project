@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing test Test]]>
@@ -44,31 +44,13 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing Framework_001.addressFieldEmptyCheck]]>
+      <![CDATA[About to begin executing Framework_001.mobileFieldFirstCharSpaceCheck]]>
     </line>
     <line>
-      <![CDATA['If name field is empty' Check Passed]]>
+      <![CDATA['If mobile field data has First Char as space' Check Passed]]>
     </line>
     <line>
-      <![CDATA[Completed executing Framework_001.addressFieldEmptyCheck]]>
-    </line>
-    <line>
-      <![CDATA[TestName = null]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in automationFramework.Framework_001]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Framework_001.addressFieldFirstCharSpaceCheck]]>
-    </line>
-    <line>
-      <![CDATA['If Address field data has First Char as space' Check Passed]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing Framework_001.addressFieldFirstCharSpaceCheck]]>
+      <![CDATA[Completed executing Framework_001.mobileFieldFirstCharSpaceCheck]]>
     </line>
     <line>
       <![CDATA[TestName = null]]>
@@ -80,31 +62,13 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing Framework_001.nameFieldEmptyCheck]]>
+      <![CDATA[About to begin executing Framework_001.mobileFieldNumericCheck]]>
     </line>
     <line>
-      <![CDATA['If name field is empty' Check Passed]]>
+      <![CDATA['If mobile field data is numeric' Check Passed]]>
     </line>
     <line>
-      <![CDATA[Completed executing Framework_001.nameFieldEmptyCheck]]>
-    </line>
-    <line>
-      <![CDATA[TestName = null]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in automationFramework.Framework_001]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Framework_001.nameFieldFirstCharSpaceCheck]]>
-    </line>
-    <line>
-      <![CDATA['If name field data has First Char as space' Check Passed]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing Framework_001.nameFieldFirstCharSpaceCheck]]>
+      <![CDATA[Completed executing Framework_001.mobileFieldNumericCheck]]>
     </line>
     <line>
       <![CDATA[TestName = null]]>
@@ -116,13 +80,13 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing Framework_001.nameFieldNumericCheck]]>
+      <![CDATA[About to begin executing Framework_001.mobileFieldSpecialCharacterCheck]]>
     </line>
     <line>
-      <![CDATA['If name field data is numeric' Check Passed]]>
+      <![CDATA['If mobile field data has Special Character' Check Passed]]>
     </line>
     <line>
-      <![CDATA[Completed executing Framework_001.nameFieldNumericCheck]]>
+      <![CDATA[Completed executing Framework_001.mobileFieldSpecialCharacterCheck]]>
     </line>
     <line>
       <![CDATA[TestName = null]]>
@@ -134,13 +98,13 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing Framework_001.nameFieldSpecialCharacterCheck]]>
+      <![CDATA[About to begin executing Framework_001.mobileaddressFieldEmptyCheck]]>
     </line>
     <line>
-      <![CDATA['If name field data has Special Character' Check Passed]]>
+      <![CDATA['If mobile field is empty' Check Passed]]>
     </line>
     <line>
-      <![CDATA[Completed executing Framework_001.nameFieldSpecialCharacterCheck]]>
+      <![CDATA[Completed executing Framework_001.mobileaddressFieldEmptyCheck]]>
     </line>
     <line>
       <![CDATA[TestName = null]]>
@@ -158,19 +122,19 @@
       <![CDATA[Completed executing Framework_001.afterMethod]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="24831" started-at="2018-02-23T12:06:58Z" finished-at="2018-02-23T12:07:23Z">
+  <suite name="Suite" duration-ms="14816" started-at="2018-02-26T11:25:57Z" finished-at="2018-02-26T11:26:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24831" started-at="2018-02-23T12:06:58Z" finished-at="2018-02-23T12:07:23Z">
+    <test name="Test" duration-ms="14816" started-at="2018-02-26T11:25:57Z" finished-at="2018-02-26T11:26:12Z">
       <class name="automationFramework.Framework_001">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="beforeMethod" is-config="true" duration-ms="5298" started-at="2018-02-23T12:06:58Z" finished-at="2018-02-23T12:07:03Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="beforeMethod" is-config="true" duration-ms="4191" started-at="2018-02-26T11:25:57Z" finished-at="2018-02-26T11:26:01Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing Framework_001.beforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="main" duration-ms="7734" started-at="2018-02-23T12:07:03Z" finished-at="2018-02-23T12:07:11Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="main" duration-ms="1847" started-at="2018-02-26T11:26:01Z" finished-at="2018-02-26T11:26:03Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing Framework_001.main]]>
@@ -192,7 +156,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="clickNewCustomer()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="clickNewCustomer" duration-ms="4940" started-at="2018-02-23T12:07:11Z" depends-on-methods="automationFramework.Framework_001.main" finished-at="2018-02-23T12:07:16Z">
+        <test-method status="PASS" signature="clickNewCustomer()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="clickNewCustomer" duration-ms="3802" started-at="2018-02-26T11:26:03Z" depends-on-methods="automationFramework.Framework_001.main" finished-at="2018-02-26T11:26:07Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing Framework_001.clickNewCustomer]]>
@@ -211,16 +175,16 @@
             </line>
           </reporter-output>
         </test-method> <!-- clickNewCustomer -->
-        <test-method status="PASS" signature="addressFieldEmptyCheck()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="addressFieldEmptyCheck" duration-ms="1169" started-at="2018-02-23T12:07:16Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-23T12:07:17Z">
+        <test-method status="PASS" signature="mobileFieldFirstCharSpaceCheck()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="mobileFieldFirstCharSpaceCheck" duration-ms="1229" started-at="2018-02-26T11:26:07Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-26T11:26:08Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing Framework_001.addressFieldEmptyCheck]]>
+              <![CDATA[About to begin executing Framework_001.mobileFieldFirstCharSpaceCheck]]>
             </line>
             <line>
-              <![CDATA['If name field is empty' Check Passed]]>
+              <![CDATA['If mobile field data has First Char as space' Check Passed]]>
             </line>
             <line>
-              <![CDATA[Completed executing Framework_001.addressFieldEmptyCheck]]>
+              <![CDATA[Completed executing Framework_001.mobileFieldFirstCharSpaceCheck]]>
             </line>
             <line>
               <![CDATA[TestName = null]]>
@@ -232,17 +196,17 @@
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- addressFieldEmptyCheck -->
-        <test-method status="PASS" signature="addressFieldFirstCharSpaceCheck()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="addressFieldFirstCharSpaceCheck" duration-ms="1164" started-at="2018-02-23T12:07:17Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-23T12:07:18Z">
+        </test-method> <!-- mobileFieldFirstCharSpaceCheck -->
+        <test-method status="PASS" signature="mobileFieldNumericCheck()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="mobileFieldNumericCheck" duration-ms="1165" started-at="2018-02-26T11:26:08Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-26T11:26:09Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing Framework_001.addressFieldFirstCharSpaceCheck]]>
+              <![CDATA[About to begin executing Framework_001.mobileFieldNumericCheck]]>
             </line>
             <line>
-              <![CDATA['If Address field data has First Char as space' Check Passed]]>
+              <![CDATA['If mobile field data is numeric' Check Passed]]>
             </line>
             <line>
-              <![CDATA[Completed executing Framework_001.addressFieldFirstCharSpaceCheck]]>
+              <![CDATA[Completed executing Framework_001.mobileFieldNumericCheck]]>
             </line>
             <line>
               <![CDATA[TestName = null]]>
@@ -254,17 +218,17 @@
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- addressFieldFirstCharSpaceCheck -->
-        <test-method status="PASS" signature="nameFieldEmptyCheck()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="nameFieldEmptyCheck" duration-ms="1083" started-at="2018-02-23T12:07:18Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-23T12:07:19Z">
+        </test-method> <!-- mobileFieldNumericCheck -->
+        <test-method status="PASS" signature="mobileFieldSpecialCharacterCheck()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="mobileFieldSpecialCharacterCheck" duration-ms="1246" started-at="2018-02-26T11:26:09Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-26T11:26:11Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing Framework_001.nameFieldEmptyCheck]]>
+              <![CDATA[About to begin executing Framework_001.mobileFieldSpecialCharacterCheck]]>
             </line>
             <line>
-              <![CDATA['If name field is empty' Check Passed]]>
+              <![CDATA['If mobile field data has Special Character' Check Passed]]>
             </line>
             <line>
-              <![CDATA[Completed executing Framework_001.nameFieldEmptyCheck]]>
+              <![CDATA[Completed executing Framework_001.mobileFieldSpecialCharacterCheck]]>
             </line>
             <line>
               <![CDATA[TestName = null]]>
@@ -276,17 +240,17 @@
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- nameFieldEmptyCheck -->
-        <test-method status="PASS" signature="nameFieldFirstCharSpaceCheck()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="nameFieldFirstCharSpaceCheck" duration-ms="1105" started-at="2018-02-23T12:07:19Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-23T12:07:20Z">
+        </test-method> <!-- mobileFieldSpecialCharacterCheck -->
+        <test-method status="PASS" signature="mobileaddressFieldEmptyCheck()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="mobileaddressFieldEmptyCheck" duration-ms="1196" started-at="2018-02-26T11:26:11Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-26T11:26:12Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing Framework_001.nameFieldFirstCharSpaceCheck]]>
+              <![CDATA[About to begin executing Framework_001.mobileaddressFieldEmptyCheck]]>
             </line>
             <line>
-              <![CDATA['If name field data has First Char as space' Check Passed]]>
+              <![CDATA['If mobile field is empty' Check Passed]]>
             </line>
             <line>
-              <![CDATA[Completed executing Framework_001.nameFieldFirstCharSpaceCheck]]>
+              <![CDATA[Completed executing Framework_001.mobileaddressFieldEmptyCheck]]>
             </line>
             <line>
               <![CDATA[TestName = null]]>
@@ -298,52 +262,8 @@
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- nameFieldFirstCharSpaceCheck -->
-        <test-method status="PASS" signature="nameFieldNumericCheck()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="nameFieldNumericCheck" duration-ms="1106" started-at="2018-02-23T12:07:20Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-23T12:07:21Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing Framework_001.nameFieldNumericCheck]]>
-            </line>
-            <line>
-              <![CDATA['If name field data is numeric' Check Passed]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing Framework_001.nameFieldNumericCheck]]>
-            </line>
-            <line>
-              <![CDATA[TestName = null]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in automationFramework.Framework_001]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- nameFieldNumericCheck -->
-        <test-method status="PASS" signature="nameFieldSpecialCharacterCheck()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="nameFieldSpecialCharacterCheck" duration-ms="1107" started-at="2018-02-23T12:07:21Z" depends-on-methods="automationFramework.Framework_001.clickNewCustomer" finished-at="2018-02-23T12:07:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing Framework_001.nameFieldSpecialCharacterCheck]]>
-            </line>
-            <line>
-              <![CDATA['If name field data has Special Character' Check Passed]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing Framework_001.nameFieldSpecialCharacterCheck]]>
-            </line>
-            <line>
-              <![CDATA[TestName = null]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in automationFramework.Framework_001]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- nameFieldSpecialCharacterCheck -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationFramework.Framework_001@7a765367]" name="afterMethod" is-config="true" duration-ms="109" started-at="2018-02-23T12:07:22Z" finished-at="2018-02-23T12:07:23Z">
+        </test-method> <!-- mobileaddressFieldEmptyCheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automationFramework.Framework_001@52feb982]" name="afterMethod" is-config="true" duration-ms="111" started-at="2018-02-26T11:26:12Z" finished-at="2018-02-26T11:26:12Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing Framework_001.afterMethod]]>
